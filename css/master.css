@@ -6,8 +6,7 @@ src: local('Cinzel Decorative Regular'), url('/font/CinzelDecorative-Regular.wof
 } */
 
 body {
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0px;
 }
 
 a {
