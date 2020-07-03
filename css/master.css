@@ -1,0 +1,17 @@
+@font-face {
+font-family: 'Cinzel Decorative Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Cinzel Decorative Regular'), url('/font/CinzelDecorative-Regular.woff') format('woff');
+}
+
+body {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+a {
+  font-family: 'Cinzel Decorative Regular';
+  font-weight: normal;
+  font-size: 36px;
+}
