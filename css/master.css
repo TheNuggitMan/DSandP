@@ -4,6 +4,19 @@ font-style: normal;
 font-weight: normal;
 src: local('Cinzel Decorative Regular'), url('/font/CinzelDecorative-Regular.woff') format('woff');
 } */
+@media screen and (max-width: 800px) {
+    .galleryItem {
+        columns: 2 100%;
+        column-gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .galleryItem {
+        columns: 1 100vw;
+        column-gap: 0.5rem;
+    }
+}
 
 body {
   left: 0;
@@ -17,25 +30,12 @@ a {
 }
 
 .galleryContainer {
-  columns: 4 100px;
-  column-gap: 0.5rem;
-}
-
-@media screen and (max-width: 800px) {
-  .galleryContainer {
-    columns: 2 8rem;
+    columns: 4 300px;
     column-gap: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .galleryContainer {
-    columns: 1;
-    column-gap: 0.5rem;
-  }
 }
 
 img {
+    overflow: hidden;
     border-radius: 1rem;
     width: 100%;
 }
