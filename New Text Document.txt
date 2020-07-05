@@ -1,122 +1,34 @@
-<div class="flex justify-center">
-        <div class="">
-          <p class="tc">
-TERMS
-
-&
-
-CONDITIONS
 
 
 
-Deposit/payment
-
-?
-
-A deposit of £50 is payable at the time of booking. This will secure your date. The remaining balance is then payable 2 weeks prior to your event.
-
-?
-
-Postage
-
-?
-
-Postage is worked out with the weight and size of the items in mind. You will be given a quote prior to booking.
-
-?
-
-Packaging
-
-?
-
-All packaging is the property of Devon Signs & Props and items must be packed up in the same way in which they were delivered. Included in the package will be a return slip to be placed over the address on the box. This is to make returning items simple for if you do not have access to a printer.
-
-?
-
-Security Deposit
-
-?
-
-We require a security deposit of £50 prior to the event. We hold your credit/debit card details, which won’t be used unless the hired goods are damaged. The deposit will be returned to your bank within 5 working days of us receiving the item/items back. This will also be followed up by an email confirmation for your records.
-
-?
-
-Breakages
-
-?
-
-You must inform us at the time of return if any losses/breakages have occurred. You are responsible for the hired goods from the point of delivery to when the items are returned. If any items are lost or damaged through negligence there will be a replacement charge. This will be five times the price of the hire charge. We understand minor damage may occur such as, minor scratches and chips on the signage. You will not be charged for this but please do inform us. The judgement of damage is at the discretion of Devon Signs & Props.
-
-?
-
-Period of Hire
-
-?
-
-The period of hire is generally 3 days. We will deliver 1 day before your event and expect it to be return-posted the day after the event. We are happy to extend this period which we can arrange at the time of booking.
-
-?
-
-Cancellation
-
-?
-
-Unfortunately, you may have to cancel for some reason. If this is the case, we would keep your original deposit of 25% of the full amount. If you cancel before 2 weeks of your event, 75% of the full amount would be payable. After 2 weeks before your event 100% of the full amount would be payable. If we have to cancel and are unable to provide you with your hired products, we would refund you 100% of all money paid.
-
-?
-
-Liability
-
-?
-
-Devon Signs & Props will not accept any liability for any injury or damage caused as a result of using our hire or purchased products. We suggest you get your own insurance to cover theft, loss or damage of products and public liability.
 
 
 
-HOW LONG IS THE HIRE PERIOD?
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
-?
+.galleryItem {
+    flex: 25%;
 
-The hire period is usually 2-4 days, we post it to arrive the day before your event and expect it to be posted back the day after your event (with the return label provided.) We can arrange different hire periods if you require, please let us know at the time of booking.
+    max-width: 25%;
+    padding: 0 4px;
 
-?
+}
 
-IS THERE A MINIMUM ORDER?
+@media screen and (max-width: 800px) {
+  .galleryItem {
+    flex: 50%;
+    max-width: 50%;
 
-?
+  }
+}
 
-There is no minimum order for postage.
-
-If you or your event is located in Devon, collection rather than postage can be arranged.
-
-?
-
-HOW DO I PAY?
-
-?
-
-You can pay by bank transfer or via Paypal – Paying via Paypal will incur a 3.4% + 20p transaction fee.
-
-?
-
-DO I NEED TO PAY A DEPOSIT?
-
-?
-
-A deposit of £50 is required to secure your chosen date. The full balance is then required 2 weeks before your event.
-
-?
-
-WHAT HAPPENS IF I BREAK SOMETHING?
-
-?
-
-We understand that minor breakages may occur and you will not be charged for these. However, if we feel something is damaged through negligence, we will charge up to 5 times the price of hire.
-
-?
-
-
-Please see our terms and conditions for full details of our hire agreement.
-</P>
-        </div>
-    </div>
+@media screen and (max-width: 600px) {
+  .galleryItem {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
