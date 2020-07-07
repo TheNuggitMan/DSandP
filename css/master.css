@@ -4,19 +4,19 @@ font-style: normal;
 font-weight: normal;
 src: local('Cinzel Decorative Regular'), url('/font/CinzelDecorative-Regular.woff') format('woff');
 } */
-@media screen and (max-width: 800px) {
-    .galleryItem {
+/* @media screen and (max-width: 800px) {
+    .galleryWrapper {
         columns: 2 100%;
         column-gap: 0.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .galleryItem {
+    .galleryWrapper {
         columns: 1 100vw;
         column-gap: 0.5rem;
     }
-}
+} */
 
 body {
   left: 0;
@@ -29,11 +29,6 @@ a {
   font-size: 36px;
 }
 
-.galleryContainer {
-    columns: 4 300px;
-    column-gap: 0.5rem;
-}
-
 img {
     overflow: hidden;
     border-radius: 1rem;
@@ -41,43 +36,7 @@ img {
 }
 
 .galleryContainer {
-  color:#313437;
-  background-color:#fff;
-}
-
-.galleryContainer  {
-  color:#7d8285;
-}
-
-.galleryContainer {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
-}
-
-@media (max-width:767px) {
-  .galleryContainer  {
-    margin-bottom:25px;
-    padding-top:25px;
-    font-size:24px;
-  }
-}
-
-/* .galleryContainer {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto 40px;
-} */
-
-.galleryContainer {
-  margin-bottom:0;
-}
-
-.galleryContainer .galleryItem {
-  padding-bottom:20px;
-}
-
-.galleryContainer {
-  padding-bottom:30px;
+  columns: 4 300px;
+  column-gap: 0.5rem;
+  height: 200vh;
 }
