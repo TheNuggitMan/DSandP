@@ -40,3 +40,34 @@ img {
   column-gap: 0.5rem;
   height: 200vh;
 }
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    /* width: 25vw; */
+    box-sizing: border-box;
+    border: 2px solid #EE6C00;
+    border-radius: 1.5rem;
+    transition: background-color .5s ease-in-out;
+}
+
+input:focus {
+    background-color: #FFC28F;
+    outline: none;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 2px solid #FF8D2F;
+    border-radius: 1.5rem;
+    outline: none;
+    transition: background-color .5s ease-in-out;
+}
+
+textarea:focus {
+    background-color: #FFC28F;
+}
