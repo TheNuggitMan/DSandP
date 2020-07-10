@@ -1,34 +1,4 @@
 
 
 
-
-
-
-.galleryContainer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.galleryItem {
-    flex: 25%;
-
-    max-width: 25%;
-    padding: 0 4px;
-
-}
-
-@media screen and (max-width: 800px) {
-  .galleryItem {
-    flex: 50%;
-    max-width: 50%;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .galleryItem {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js

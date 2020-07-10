@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" type="text/css" href="node_modules\Lightpick-master\css\lightpick.css">
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+<div class="lightpick">
+    <input type="text" id="datepicker"/>
+</div>
+
+
+<script src="js\moment.min.js"></script>
+<script src="node_modules\Lightpick-master\lightpick.js"></script>
+<script>
+    var picker = new Lightpick({ field: document.getElementById('datepicker'),
+    singleDate: false
+ });
+</script>
+    </body>
+</html>

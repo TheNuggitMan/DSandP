@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link type="image/x-icon" rel="icon" href="Img/devonsignsprops_flav.ico">
+    <link rel="stylesheet" type="text/css" href="node_modules\Lightpick-master\css\lightpick.css">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/master.css">
   </head>
@@ -30,17 +31,22 @@
                     We do offer delivery of items, if needed, at an additional cost.<br></p>
                 </div>
         <div class="contactForm ">
-                <form class="tc" action="contact-us-form.php" method="post">
+                <form class="tc pb3" action="contact-us-form.php" method="post">
                           <label class="pa2 f4 lh-copy" for="name">Name:</label>
                           <input class="pa2" type="text" name="name" placeholder="Full Name..." required>
                           <label class="pa2 f4 lh-copy" for="mail">Email:</label>
                           <input class="pa2" type="email" name="email" placeholder="Email..." required>
                           <label class="pa2 f4 lh-copy" for="msg">Message:</label>
                           <textarea class="ph2 f6 lh-copy" name="message" rows="6" cols="40" placeholder="Enter as much information about what you are after." required></textarea>
-                          <input class="ph4 mt3 f5 lh-copy" type="submit" value="Submit">
-                </form>
-                <p class="fw9 lh-copy lh-title-ns ph0 f4 f1-ns measure-narrow center">"Let's work together to achieve a high quality of finish and bring designs to life"<br> - Laura Harvey</p>
-        </div>
+                          <label class="pa2 f4 lh-copy" for="datepicker">Choose the date of your event or commission deadline<br>
+                          (optional)</label>
+                          <input class="pa1 tc ba b--dashed" type="text" id="datepicker" placeholder="Click for calender">
+                          <input class="submit 6 ph4 mt3 f5 lh-copy" type="submit" value="Submit">
+            </form>
+
+
+                <hr>
+                <p class="fw9 lh-copy lh-title-ns ph0 pt3 f4 f1-ns measure-narrow center">"Let's work together to achieve a high quality of finish and bring designs to life"<br> - Laura Harvey</p>
 
 
         <!-- Footer Below  -->
@@ -64,5 +70,9 @@
             <a href="T&C.html#landing" class="f6 link dim gray dib mr2">Terms & Conditions</a>
           </div>
         </footer>
-  </body>
+        <script src="js\moment.min.js"></script>
+        <script src="node_modules\Lightpick-master\lightpick.js"></script>
+        <script src="js\master.js"></script>
+        <!--CDN for moment.min.js <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script> -->
+      </body>
 </html>

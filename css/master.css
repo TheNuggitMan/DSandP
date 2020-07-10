@@ -62,3 +62,7 @@ textarea {
 textarea:focus {
     background-color: #FFC28F;
 }
+
+#datepicker {
+    width: 14rem;
+}
