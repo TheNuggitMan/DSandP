@@ -23,10 +23,14 @@ body {
   top:0;
 }
 
-a {
+.nav a {
   font-family: 'Cinzel Decorative', cursive;
-  font-weight: normal;
-  font-size: 36px;
+  /* font-weight: normal; */
+  /* font-size: 36px; */
+}
+
+p a {
+    text-decoration: none;
 }
 
 img {
