@@ -3,34 +3,22 @@ font-family: 'Cinzel Decorative Regular';
 font-style: normal;
 font-weight: normal;
 src: local('Cinzel Decorative Regular'), url('/font/CinzelDecorative-Regular.woff') format('woff');
-} */
-/* @media screen and (max-width: 800px) {
-    .galleryWrapper {
-        columns: 2 100%;
-        column-gap: 0.5rem;
+}
+*/
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 2rem;
     }
 }
-
-@media screen and (max-width: 600px) {
-    .galleryWrapper {
-        columns: 1 100vw;
-        column-gap: 0.5rem;
-    }
-} */
 
 body {
   left: 0;
   top:0;
+  font-family: georgia, times, serif;
 }
 
 .nav a {
   font-family: 'Cinzel Decorative', cursive;
-  /* font-weight: normal; */
-  /* font-size: 36px; */
-}
-
-p a {
-    /* text-decoration: none; */
 }
 
 img {
@@ -52,7 +40,6 @@ form {
 }
 
 input {
-    /* width: 25vw; */
     box-sizing: border-box;
     border: 2px solid #EE6C00;
     border-radius: 1.5rem;
