@@ -1,8 +1,11 @@
-<?php
-if(!isset($_POST["submit"]))
-{
-    echo "error; you need to submit the form!";
-}
+
+
+
+
+
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
+
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
@@ -24,5 +27,3 @@ $headers = "from: $email_from \r \n";
 
 //Send the email
 mail($to, $email_subject,$email_body,$headers);
-
-?>
