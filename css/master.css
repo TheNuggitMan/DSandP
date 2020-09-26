@@ -66,3 +66,12 @@ textarea:focus {
 #datepicker {
     width: 14rem;
 }
+
+#gForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#gFormStyle {
+    border: 0;
+}
